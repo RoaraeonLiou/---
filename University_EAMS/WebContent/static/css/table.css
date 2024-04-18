@@ -1,0 +1,35 @@
+/*
+body {
+      margin: 0;
+      padding: 0;
+      background: #ecf0f1;
+      font-family: sans-serif;
+    }
+
+.container {
+  	position: absolute;
+  	top: 20%;
+  	left: 50%;
+  	transform: translate(-50%, 0%);
+}
+*/
+table {
+  	border-collapse: collapse;
+  	width: 1200px;
+  	margin-bottom:2cm;
+}
+tr td {
+	width:100px;
+  	border: 1px solid #95a5a6;
+  	padding: 5px;
+  	text-align: center;
+}
+tr:nth-of-type(odd) {
+  	background: #83d9eb;
+}
+tr:nth-of-type(even) {
+  	background: #ffffff;
+}
+tr:nth-of-type(1) {
+  	background: #1197d7;
+}
